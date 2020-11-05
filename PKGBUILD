@@ -26,7 +26,7 @@ sha256sums=('65a7d3a4010a4e3bd5c0baa41a234797cd3a1735449a4a5902129152601dc57b')
 # Add the following line to the _config variable if you want to set the number of make jobs
 #  MAKE_NB_JOBS=2 \
 _config="FC=gfortran USE_OPENMP=1 USE_THREAD=1 \
-  DYNAMIC_ARCH=1 \
+  DYNAMIC_ARCH=1 TARGET=GENERIC \
   USE_TLS=1 \
   NO_LAPACK=0 BUILD_LAPACK_DEPRECATED=1 \
   MAJOR_VERSION=${_lapackver:0:1} NO_STATIC=1"
